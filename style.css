@@ -1,0 +1,60 @@
+body {
+	background-image: url("sayagata-400px.png");
+}
+.color {
+	height: 60px;
+	width: 100px;
+	background-color: black;
+	color: white;
+}
+header {
+	background-color: white;
+	height: 60px;
+}
+.this {
+	overflow: auto;
+	float: left;
+	font-size: 40px;
+	background-color: green;
+	margin-left: 50px;
+	margin-top: 0px;
+	padding-right: 10px;
+}
+.top {
+	float: right;
+	padding-right: 20px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.top2 {
+	font-size: 40px;
+	padding-bottom: 10px;
+	color: blue;
+	background-color: black;
+}
+.main {
+	background-color: white;
+	width: 650px;
+	margin-left: 50px;
+	float: left;
+	margin-top: 40px;
+	clear: auto;
+}
+h1 	{
+	padding-left: 30px;
+	padding-top: 10px;
+}
+p 	{
+	text-align: left;
+	font-size: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#ima {
+	height: 300px;
+	width: 200px;
+	float: left;
+	padding-left: 30px;
+	padding-right: 20px;
+}

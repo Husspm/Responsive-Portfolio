@@ -1,0 +1,147 @@
+body {
+	background-image: url("sayagata-400px.png");
+	height: 100%;
+	margin: 0;
+}
+header {
+	display: block;
+	background-color: white;
+	padding: 20px 0px 20px 0px;
+	border-bottom: solid 1px #cccccc;
+		animation-name: pop;
+	animation-direction: forwards;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+.top {
+	display: inline;
+	background-color: #4aaaa5;
+	margin-left: 100px;
+	padding: 20px 30px 20px 30px;
+	border-bottom: solid 1px #cccccc;
+	color: white;
+	font-family: "Georgia";
+	text-shadow: 1px 1px 4px black;
+}
+
+.lk	 {
+	position: relative;
+	display: inline;
+	color: #777777;
+	font-family: "Arial";
+}
+.lk1 {
+	position: absolute;
+	left: 700px;
+	border-right: 1px solid #cccccc;
+	padding-right: 25px;
+	bottom: 10px;
+}
+.lk2 {
+	position: absolute;
+	left: 800px;
+		border-right: 1px solid #cccccc;
+	padding-right: 25px;
+	bottom: 10px;
+	float: left;
+}
+.lk3 {
+	position: absolute;
+	left: 900px;
+	bottom: 10px;
+	float: left;
+}
+@keyframes pop{
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+.main-text {
+	margin-top: 70px;
+	margin-left: 100px;
+	float: left;
+	background-color: white;
+	max-width: 550px;
+	min-width: 350px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	animation-name: pop;
+	animation-direction: forwards;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards; 
+}
+.logo {
+	height: 205px;
+	width: 150px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+.line {
+	padding-left: 10px;
+	color: #4aaaa5;
+	border-bottom: solid 3px #cccccc;
+	text-shadow: 1px 1px 4px black;
+}
+p {
+	padding-left: 10px;
+	padding-right: 20px;
+	font-family: "Arial";
+	font-size: 20px;
+}
+h3 {
+	font-family: "Arial";
+	color: #777777;
+}
+.connect {
+	margin: 70px 0 0 50px;
+	float: left;
+	background-color: #ffffff;
+	padding: 0px 20px 30px 20px;
+	animation-name: pop;
+	animation-direction: forwards;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards; 
+}
+.flex {
+	display: flex;
+	justify-content: space-around;
+}
+.small-logo {
+	height: 80px;
+	width: 80px;
+	padding: 0 10px 0 10px;
+}
+
+.wrap {
+	min-height: 100%;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: -80px;
+}
+.push{
+	height: 80px;
+	position: relative;
+}
+footer {
+	text-align: center;
+	background-color: #666666;
+	padding: 5px 0 5px 0;
+	color: #4aaaa5;
+	font-family: "Arial";
+	clear: both;
+	text-shadow: 1px 1px 1px white;
+	border-top: 5px solid #4aaaa5;
+	position: absolute;
+	top: 40px;
+	width: 100%;
+		animation-name: pop;
+	animation-direction: forwards;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
